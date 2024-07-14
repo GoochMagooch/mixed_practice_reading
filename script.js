@@ -3,5 +3,3 @@ const sections_default = ["Introduction: The Gift", "The Lesson of Perfect Pitch
     "The Accidental Blindfold Chess Master", "The Secret To Winning Chess", "Mental Representations", "Recognizing and Responding To Patterns", "Making Sense of Information", "Finding an Answer", "Planning",
     "Mental Representations in Learning", "Physical Activities are Mental Too", "The Gold Standard", "A Highly Developed Field", "The Challenge of the Violin", "Good Versus Better Versus Best", 
     "The Principles of Deliberate Practice", "Applying the Principles of Deliberate Practice", "No, The Ten-Thousand-Hour Rule isn't Really a Rule"]
-
-const example = "string"
