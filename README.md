@@ -7,9 +7,9 @@ I'll need a default list of all the sections so I can know how many I haven't re
     - if an item from `default list` != in `read list`
         I haven't read it
 
-I can run a check of the list that contains sections I've read against the list of all sections and see which one's I haven't read
-I can add another button to see which number a section that I type in is (`check section number`)
+I can make sure that each section has the index next to it
 - console.log(indexOf(section) + ' ' section)
 
 TASKS:
 Create list with all sections of Peak
+Create button that runs a check of the list that contains sections I've read, against the list of all sections to see which one's I haven't read
