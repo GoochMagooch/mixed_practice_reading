@@ -11,5 +11,5 @@ I can make sure that each section has the index next to it
 - console.log(indexOf(section) + ' ' section)
 
 TASKS:
-Create list with all sections of Peak
+Create list with all sections of Peak - DONE
 Create button that runs a check of the list that contains sections I've read, against the list of all sections to see which one's I haven't read
