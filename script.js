@@ -12,5 +12,5 @@ const sections_read = ["The Top Gun Approach to Learning"]
 
 const add = document.getElementById("#add")
 const check = document.getElementById("#check")
+const input = document.getElementById("#input")
 const output = document.getElementById("#output")
-
