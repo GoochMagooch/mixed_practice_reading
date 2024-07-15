@@ -1,4 +1,4 @@
-const sections_default = ["Introduction: The Gift", "The Lesson of Perfect Pitch", "About This Book", "The Power of Purposeful Practice", "The Rise of Extraordinary Performers", "The Usual Approach", "Purposeful Practice",
+const peak_sections = ["Introduction: The Gift", "The Lesson of Perfect Pitch", "About This Book", "The Power of Purposeful Practice", "The Rise of Extraordinary Performers", "The Usual Approach", "Purposeful Practice",
     "The Limits of Purposeful Practice", "Harnessing Adaptability", "The Brains of London Cabbies", "Adaptability", "Challenging Homeostasis", "Shaping The Brain", "Building Your Own Potential", "Mental Representations",
     "The Accidental Blindfold Chess Master", "The Secret To Winning Chess", "Mental Representations", "Recognizing and Responding To Patterns", "Making Sense of Information", "Finding an Answer", "Planning",
     "Mental Representations in Learning", "Physical Activities are Mental Too", "The Gold Standard", "A Highly Developed Field", "The Challenge of the Violin", "Good Versus Better Versus Best", 
