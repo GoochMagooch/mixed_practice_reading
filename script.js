@@ -14,3 +14,11 @@ const add = document.getElementById("#add")
 const check = document.getElementById("#check")
 const input = document.getElementById("#input")
 const output = document.getElementById("#output")
+
+function add_section() {
+    sections_read = sections_read.push(input.value)
+    output.textContent = `${input.value} has been added to your list of read sections!`
+}
+
+add.addEventListener("click", add_section)
+
