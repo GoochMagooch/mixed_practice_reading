@@ -23,7 +23,8 @@ function add_section() {
     if (new_section == "") {
         err.textContent = "please enter section title"
     } else {
-        output.textContent = `${new_section} has been added to your list of read sections!`
+        output.textContent = `'${new_section}' has been added to your list of read sections!`
+        err.textContent = ""
     }
 }
 
