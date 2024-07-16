@@ -8,17 +8,25 @@ const peak_sections = ["Introduction: The Gift", "The Lesson of Perfect Pitch", 
     "But What About Natural Talent", "The Magic of Paganini", "Mozart and His Legend", "The Magical High Jumper", "Savants", "The Anti-Prodigies", "Practice Versus \"Talent\" in Chess", "The Real Role of Innate Characteristics",
     "The Dark Side of Believing in Innate Talent", "Where Do We Go From Here?", "The Promise of Deliberate Practice", "Homo Exercens"]
 
-const sections_read = ["The Top Gun Approach to Learning"]
+let sections_read = []
 
-const add = document.getElementById("#add")
-const check = document.getElementById("#check")
-const input = document.getElementById("#input")
-const output = document.getElementById("#output")
+const add = document.querySelector(".add")
+const check = document.querySelector(".check")
+const input = document.querySelector(".input")
+const output = document.querySelector(".output")
+const err = document.querySelector(".err")
 
 function add_section() {
-    sections_read = sections_read.push(input.value)
-    output.textContent = `${input.value} has been added to your list of read sections!`
+
+    const new_section = input.value.trim()
+
+    if (new_section == "") {
+        err.textContent = "please enter section title"
+    } else {
+        output.textContent = `${new_section} has been added to your list of read sections!`
+    }
 }
 
 add.addEventListener("click", add_section)
 
+// sections_read = sections_read.push(input.value)
